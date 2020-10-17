@@ -16,5 +16,5 @@ function myFunction() {
 
 function myfn() {
     alert("Thank You for your response .");
-    location.reload();
+    document.getElementById("myForm").reset();
 }
