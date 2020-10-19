@@ -4,7 +4,7 @@
                  text-align: center;
                  padding: 1vw 2vw;
                  text-decoration: none;
-                 font-size: 1vw;
+                 font-size: 15px;
                  font-weight: bold;
                  margin: auto;
              }
@@ -17,14 +17,14 @@
              }
              
              .p1 {
-                 padding-top: 25%;
-                 padding-left: 2%;
+                 padding-left: 5%;
                  font-size: 2vw;
                  font-weight: bold;
                  font-family: Verdana, Geneva, Tahoma, sans-serif;
                  margin-left: auto;
                  margin-right: auto;
                  color: rgb(228, 121, 121);
+                 padding-top: 10vw;
              }
              
              .p2 {
@@ -50,15 +50,17 @@
              }
              
              .img1 {
-                 width: 35%;
+                 width: 20%;
                  height: auto;
                  display: block;
                  margin-left: auto;
                  margin-right: auto;
                  border-radius: 10px;
+                 margin-top: -15vw;
              }
              
              .ls {
+                 margin-top: -10vw;
                  font-size: 3vw;
                  color: rgb(6, 169, 245);
              }
@@ -102,6 +104,15 @@
              #home {
                  top: 0;
                  padding-left: 6vw;
+             }
+             
+             @media only screen and (max-width: 600px) {
+                 .al {
+                     font-size: 50%;
+                 }
+                 .uju {
+                     font-size: 50%;
+                 }
              }
              
              .card {
@@ -206,7 +217,8 @@
                      font-size: 10px;
                  }
                  input {
-                     width: 40%;
+                     width: 50%;
+                     font-size: 10px;
                  }
              }
              
