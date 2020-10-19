@@ -75,6 +75,7 @@
                  top: 0;
                  background-color: darkblue;
                  border-radius: 20px;
+                 margin-left: 100px;
              }
              
              .sticky+.content {
@@ -113,9 +114,12 @@
                  .uju {
                      font-size: 50%;
                  }
-               #home{
-                 padding-left: 0;
-               }
+                 #home {
+                     padding-left: 0;
+                 }
+                 .sticky {
+                     margin-left: 0;
+                 }
              }
              
              .card {
