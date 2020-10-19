@@ -113,6 +113,9 @@
                  .uju {
                      font-size: 50%;
                  }
+               #home{
+                 padding-left: 0;
+               }
              }
              
              .card {
